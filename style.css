@@ -170,3 +170,172 @@ a {
     width: 4.583vw;
     height: 4.583vw;
 }
+
+@media only screen and (min-width: 1024px) and (max-width: 1920px){
+    .linkTree {
+        height: 100vh;
+        padding: 0;
+        background-image: url("./assets/background2.png");
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .gerbang {
+        width: 29.136vw;
+        height: 55.99vh;
+        position: absolute;
+        top: 1.042vh;
+        left: 36.091vw;
+    }
+    
+    .content {
+        height: 79.688vh;
+        width: 100vw;
+        background-color: #EDF2F4;
+        position: absolute;
+        top: 20.313vh;
+        border-top-left-radius: 5.417vw;
+        border-top-right-radius: 5.417vw;
+        overflow: hidden;
+    }
+    
+    .logo {
+        width: 18.96vw;
+        position: absolute;
+        left: 41.069vw;
+        top: 3.125vh;
+    }
+    
+    .selogan {
+        position: absolute;
+        left: 42.972vw;
+        top: 16.625vh;
+        width: 15.227vw;
+        height: 4.036vh;
+    }
+    
+    .buttonLink {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 2.865vh;
+        left: 37.042vw;
+        top: 22.396vh;
+    }
+    
+    .buttonTree {
+        width: 27.892vw;
+        height: 10.156vh;
+        border: 0.246vw solid #1467C3;
+        border-radius: 10.417vw;
+    }
+    
+    .kontak {
+        position: absolute;
+        top: 62.314vh;
+        display: flex;
+        align-items: center;
+        gap: 1.408vw;
+        left: 39.092vw;
+    }
+    
+    .kontakAdmin {
+        font-family: "Montserrat", sans-serif;
+        font-size: 1.025vw;
+        font-weight: 600;
+        color: #101010;
+    }
+    
+    hr {
+        width: 7.028vw;
+        border: none;
+        border-top: 0.146vw dotted #C1121F;
+    }
+    
+    .buttonKontak {
+        display: flex;
+        position: absolute;
+        left: 38.312vw;
+        top: 69.661vh;
+        gap: 2.917vw;
+        z-index: 4;
+    }
+    
+    .buttonKontakAdmin {
+        width: 11.054vw;
+        height: 5.738vh;
+        border: 0.246vw solid #1467C3;
+        border-radius: 10.417vw;
+    }
+    
+    .ombak {
+        position: absolute;
+        display: flex;
+        gap: 55.783vw;
+        left: -5.5vw;
+        top: 41.406vh;
+    }
+    
+    .ombakAset {
+        width: 29.283vw;
+        height: 40.755vh;
+    }
+    
+    .kiri {
+        transform: rotateY(180deg)
+    }
+    
+    a {
+        text-decoration: none;
+        color: #101010;
+    }
+    
+    .buttonTree {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 3.75vw;
+    }
+    
+    .isiButton {
+        display: flex;
+        align-items: center;
+        gap: 1.318vw;
+        position: relative;
+        left: 7.101vw;
+    }
+    
+    .text {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        color: #101010;
+        font-size: 1.464vw;
+    }
+    
+    .icon {
+        width: 2.416vw;
+        height: 2.416vw;
+    }
+    
+    .isiKontak {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.767vw;
+        justify-content: center;
+        position: relative;
+        bottom: 1vh;
+    }
+    
+    .text2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        color: #101010;
+        font-size: 1.025vw;
+    }
+    
+    .iconWa {
+        width: 1.611vw;
+        height: 1.611vw;
+    }
+}
