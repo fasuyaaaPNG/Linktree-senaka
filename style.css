@@ -196,7 +196,7 @@ a {
         top: 20.313vh;
         border-top-left-radius: 5.417vw;
         border-top-right-radius: 5.417vw;
-        overflow: hidden;
+        overflow-y: hidden;
     }
     
     .logo {
@@ -272,7 +272,7 @@ a {
         position: absolute;
         display: flex;
         gap: 55.783vw;
-        left: -5.5vw;
+        left: -7vw;
         top: 41.406vh;
     }
     
