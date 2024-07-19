@@ -101,6 +101,12 @@ hr {
     border-radius: 10.417vw;
 }
 
+.buttonKontakAdmin:hover {
+    border: solid #C1121F;
+    border-radius: 1vw;
+    transition: border-radius 0.2s ease;
+}
+
 .ombak {
     position: absolute;
     display: flex;
@@ -128,6 +134,12 @@ a {
     flex-direction: row;
     align-items: center;
     gap: 3.75vw;
+}
+
+.buttonTree:hover {
+    border: solid #C1121F;
+    border-radius: 1vw;
+    transition: border-radius 0.2s ease;
 }
 
 .isiButton {
@@ -228,6 +240,7 @@ a {
         height: 10.156vh;
         border: 0.246vw solid #1467C3;
         border-radius: 10.417vw;
+        z-index: 5;
     }
     
     .kontak {
